@@ -1,0 +1,12 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+# Groq provider (key starts with gsk_)
+groq>=0.9.0
+# Gemini provider (key starts with AIza) — both SDKs supported
+google-genai>=0.1.1
+google-generativeai>=0.5.0
+edge-tts>=6.1.9
+pydantic>=2.6.0
+python-dotenv>=1.0.1
+pypdf>=4.0.0
