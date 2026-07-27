@@ -12,7 +12,7 @@ app = FastAPI(
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permits local React app requests
+    allow_origins=["*","https://ai-interview-peach-eta.vercel.app"],  # Permits local React app requests
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
